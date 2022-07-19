@@ -1,2 +1,0 @@
-const t=t=>{let e=null;return new Promise((n=>{e=setTimeout((()=>{n()}),t)})).finally((()=>{clearTimeout(e),e=null}))},e=async(e,n)=>{for(let o=0;o<=n;o++)e.innerText=o,await t(30)};(()=>{const t=document.getElementById("cafes-count"),n=document.getElementById("trucks-count"),o=t.dataset.cafesCount,c=n.dataset.truckCount;e(t,o).then((()=>{console.log(c),e(n,c)}))})();
-//# sourceMappingURL=index.cd980138.js.map
