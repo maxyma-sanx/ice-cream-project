@@ -1,2 +1,0 @@
-!function(){var r=document.querySelectorAll("[js-overlay-start]");document.querySelectorAll(".card__wrapper").forEach((function(r){var e=getComputedStyle(r).backgroundColor;r.querySelector(".products__overlay").style.backgroundColor=e})),r.forEach((function(r){r.addEventListener("click",(function(r){r.preventDefault,r.target.closest(".card__wrapper").querySelector(".products__overlay").classList.toggle("products__overlay--start"),this.classList.toggle("return-arrow")}))}))}();
-//# sourceMappingURL=index.91671927.js.map
