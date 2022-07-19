@@ -1,0 +1,2 @@
+const e=document.querySelectorAll("[js-overlay-start]");document.querySelectorAll(".card__wrapper").forEach((e=>{let r=getComputedStyle(e).backgroundColor;e.querySelector(".products__overlay").style.backgroundColor=r})),e.forEach((e=>{e.addEventListener("click",(function(e){e.preventDefault,e.target.closest(".card__wrapper").querySelector(".products__overlay").classList.toggle("products__overlay--start"),this.classList.toggle("return-arrow")}))}));
+//# sourceMappingURL=index.b4de8bab.js.map
