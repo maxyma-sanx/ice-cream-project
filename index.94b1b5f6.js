@@ -1,2 +1,0 @@
-(()=>{const e=document.querySelector(".header__menu--js"),t=document.querySelector(".js-open"),s=document.querySelector(".js-close"),n=()=>{const s="true"===t.getAttribute("aria-expanded")||!1;t.setAttribute("aria-expanded",!s),e.classList.toggle("is-open"),document.body.classList.toggle("no-scroll")};t.addEventListener("click",n),s.addEventListener("click",n),window.matchMedia("(min-width: 1200px)").addEventListener("change",(s=>{s.matches&&(e.classList.remove("is-open"),t.setAttribute("aria-expanded",!1))}))})();
-//# sourceMappingURL=index.94b1b5f6.js.map
